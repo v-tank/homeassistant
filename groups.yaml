@@ -1,0 +1,101 @@
+###VIEWS###
+default_view:
+  view: yes
+  name: Home
+  entities:
+    - group.family
+    - group.sensors
+
+switches_view:
+  view: yes
+  name: Switches
+  entities:
+    - group.hallway
+    - group.living_room
+    - group.bedroom
+    - group.garage
+
+media_player_view:
+  view: yes
+  name: Media Players
+  entities:
+    - group.media_players
+
+automation_view:
+  view: yes
+  name: Automations
+  entities:
+    - group.all_automations
+    - group.all_scripts
+
+device_status_view:
+  view: yes
+  name: Device Status
+  entities: 
+    - group.device_status
+
+###GROUPS###
+hallway:
+  name: Hallways
+  entities:
+    - light.lower_stair_lights_level
+    - light.upper_stair_lights_level
+
+garage:
+  name: Garage
+  entities:
+    - script.open_garage
+
+bedroom:
+  name: Vaibhav's Room
+  entities:
+    - light.bedroom_light
+    - light.desk_lamp
+
+living_room: 
+  name: Living Room
+  entities: 
+    - light.living_room_dimmer_level
+    - light.centralite_4257050rzhac_0329802b_1
+
+family:
+  name: Current Status
+  entities:
+    - sensor.yr_symbol
+    - sun.sun
+    - device_tracker.alpeshs_iphone
+    - device_tracker.paruls_iphone
+    - device_tracker.vaibhavs_iphone
+
+media_players:
+  name: Media Players
+  entities:
+    - media_player.bedroom_speaker
+    - media_player.living_room_speaker
+    - media_player.living_room__chromecast
+    - media_player.un46d6300_un46d6300
+
+device_status:
+  name: Device Status
+  entities:
+    - zwave.2nd_floor_motion_sensor
+    - zwave.3rd_floor_motion_sensor 
+    - zwave.garage_door_switch
+    - zwave.living_room_dimmer
+    - zwave.lower_stair_lights
+    - zwave.upper_stair_lights
+    - zwave.zstick
+
+sensors:
+  name: Sensors
+  entities: 
+    - binary_sensor.ring_front_door_motion
+    - binary_sensor.ring_front_door_ding
+    - binary_sensor.centralite_3321s_057b51b9_1
+    - binary_sensor.centralite_3321s_0b19553e_1
+    - binary_sensor.centralite_3326l_0b5c4027_1
+    - binary_sensor.2nd_floor_motion_sensor_sensor
+    - binary_sensor.3rd_floor_motion_sensor_sensor
+    - sensor.ssl_cert_expiry
+    - sensor.speedtest_download
+    - sensor.ram_used

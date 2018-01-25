@@ -1,0 +1,9 @@
+hass_theme:
+  name: HASS Themes
+  options:
+    - default
+    - darkred
+    - Night_Theme
+    - PmxMononight
+  initial: default
+  icon: mdi: theme-light-dark

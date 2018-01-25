@@ -1,0 +1,12 @@
+secrets.yaml
+configuration.yaml
+home-assistant_v2.db
+home-assistant.log
+known_devices.yaml
+options.xml
+OZW_Log.txt
+pyozw.sqlite
+zigbee.db
+zwcfg_0xfece7245.xml
+zwscene.xml
+www/

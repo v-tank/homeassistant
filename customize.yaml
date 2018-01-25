@@ -1,0 +1,52 @@
+binary_sensor.centralite_3326l_0b5c4027_1:
+  friendly_name: 1st Floor Motion Sensor
+  icon: mdi:run-fast
+binary_sensor.ecolink_motion_sensor_sensor_2:
+  friendly_name: 2nd Floor Motion Sensor
+  new_entity_id: binary_sensor.ecolink_motion_sensor_sensor_2
+  icon: mdi:run-fast
+binary_sensor.ecolink_motion_sensor_sensor:
+  friendly_name: 3rd Floor Motion Sensor
+  new_entity_id: binary_sensor.ecolink_motion_sensor_sensor_3
+  icon: mdi:run-fast
+binary_sensor.ring_front_door_motion:
+  friendly_name: Front Door Motion Sensor
+  icon: mdi:run-fast
+binary_sensor.ring_front_door_ding:
+  icon: mdi:bell-ring
+switch.linear_fs20z_isolated_contact_fixture_module_switch:
+  friendly_name: Garage Door Switch
+light.desk_lamp:
+  icon: mdi:lamp
+light.centralite_4257050rzhac_0329802b_1:
+  friendly_name: Kodi
+  icon: mdi:kodi
+light.living_room_dimmer_level:
+  friendly_name: Living Room Dimmer
+  icon: mdi:spotlight-beam
+light.lower_stair_lights_level:
+  friendly_name: Lower Stair Lights
+  icon: mdi:stairs
+light.upper_stair_lights_level:
+  friendly_name: Upper Stair Lights
+  icon: mdi:stairs
+switch.garage_door_switch_switch:
+  friendly_name: Garage Door Switch
+binary_sensor.2nd_floor_motion_sensor_sensor:
+  friendly_name: 2nd Floor Motion Sensor
+  icon: mdi:run-fast
+binary_sensor.3rd_floor_motion_sensor_sensor:
+  friendly_name: 3rd Floor Motion Sensor
+  icon: mdi:run-fast
+binary_sensor.centralite_3321s_057b51b9_1:
+  friendly_name: Front Door
+  icon: mdi:door-open
+binary_sensor.centralite_3321s_0b19553e_1:
+  friendly_name: Garage Door
+  icon: mdi:garage-open
+group.all_automations:
+  friendly_name: Automations
+  hidden: false
+group.all_scripts:
+  friendly_name: Scripts
+  hidden: false

@@ -1,0 +1,8 @@
+alias: Toggle Garage
+sequence:
+  - service: switch.turn_on
+    entity_id: switch.garage_door_switch_switch  # Garage Door Switch
+  - delay:
+      seconds: 2
+  - service: switch.turn_off
+    entity_id: switch.garage_door_switch_switch  # Garage Door Switch
